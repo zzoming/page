@@ -1,0 +1,191 @@
+
+/* header */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 30px;
+    background-color: white;
+    color: #6a75ca;
+    font-size: 18px;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: right;
+}
+.list-link {
+    margin-left: 70px;
+  }
+
+.cont-intro {
+  margin: 250px 0 350px 0;
+  display: flex;
+  justify-content: center;
+}
+.cont-intro img {
+  width: 230px;
+  margin-right: 40px;
+}
+
+.txt-title {
+  width: 650px;
+  margin-top: 50px;
+  font-size: 28px;
+  font-family: "GmarketBold";
+  color: #4754b9;
+  line-height: 35px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+/* about섹션 */
+.section-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(242, 242, 244);
+  padding: 80px 0 140px 0;
+  margin: 0 0 140px 0;
+}
+
+.section-about h2 {
+  margin: 0 auto 100px;
+  display: inline-block;
+  font-family: "GmarketBold";
+  color: #6a75ca;
+  font-size: 40px;
+}
+.image-about {
+  display: flex;
+  margin: 0 auto;
+}
+.info-about {
+  margin: 0 auto;
+  
+  
+}
+.txt-about dt {
+  display: inline-block;
+  margin-bottom: 17px;
+  width: 110px;
+  font-size: 22px;
+  font-family: "GmarketBold";
+  color: #6a75ca;
+  font-weight: bold;
+  
+}
+.txt-about {
+  margin-top: 55px;
+  font-weight: bold;
+}
+.txt-about dd {
+  display: inline-block;
+  font-size: 22px;
+}
+
+.image-about img {
+  width: 438px;
+  height: 438px;
+}
+
+/* project섹션 */
+.section-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+
+.section-project h2 {
+  margin: 0 auto ;
+  display: inline-block;
+  font-family: "GmarketBold";
+  color: #6a75ca;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.box-project {
+    margin: 30px auto;
+    display: flex;
+    padding: 20px;
+    width: 1000px;
+    border-radius: 20px;
+    border : 1px solid;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+  }
+  
+  .img-project {
+    border-radius: 5px;
+    width: 452px;
+    height: 350px;
+  }
+
+  .text-project {
+    text-align: left;
+    margin: 25px 20px 20px 40px;
+  }
+
+  .text-project h3 {
+    font-family: "GmarketBold";
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .text-project dl dt {
+    font-family: "GmarketBold";
+    color: #4a56b2;
+    font-size:22px;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  .text-project dl dd {
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-left: 3px
+  }
+
+/* footer */
+#footer {
+  text-align: center;
+}
+#footer h2 {
+  font-family: "GmarketBold";
+  color: #6a75ca;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.box-footer {
+  width: 100%;
+  background-color: white;
+  padding: 80px 0 70px 0;
+}
+
+.img-github,
+.img-velog,
+.img-sns {
+  width: 65px;
+}
+
+.box-footer p {
+  color: #6a75ca;
+  margin-top: 50px;
+}
+
+.link-sns ul {
+  display: inline-block;
+  margin: 30px auto;
+}
+.link-sns li {
+  display: inline-block;
+  padding: 35px;
+  font-size: 12px;
+}
+.link-sns li a img {
+  margin-bottom: 10px;
+}
+
